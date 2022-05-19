@@ -1,0 +1,539 @@
+Rain 19 May 2022 10:01:28 PM CST
+Linux VM-16-2-ubuntu 5.4.0-96-generic #109-Ubuntu SMP Wed Jan 12 16:49:16 UTC 2022 x86_64 x86_64 x86_64 GNU/Linux
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 85
+model name	: Intel(R) Xeon(R) Platinum 8255C CPU @ 2.50GHz
+stepping	: 5
+microcode	: 0x1
+cpu MHz		: 2494.130
+cache size	: 36608 KB
+physical id	: 0
+siblings	: 1
+core id		: 0
+cpu cores	: 1
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl cpuid tsc_known_freq pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single pti fsgsbase bmi1 hle avx2 smep bmi2 erms invpcid rtm mpx avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 arat avx512_vnni
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs taa itlb_multihit
+bogomips	: 4988.26
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 46 bits physical, 48 bits virtual
+power management:
+
+MemTotal:        2031348 kB
+MemFree:          495468 kB
+MemAvailable:    1150052 kB
+Buffers:          112484 kB
+Cached:           645060 kB
+SwapCached:            0 kB
+Active:          1105992 kB
+Inactive:         231412 kB
+Active(anon):     598104 kB
+Inactive(anon):     1848 kB
+Active(file):     508888 kB
+Inactive(file):   228872 kB
+Unevictable:       21140 kB
+Mlocked:           21140 kB
+SwapTotal:             0 kB
+SwapFree:              0 kB
+Dirty:               100 kB
+Writeback:             0 kB
+AnonPages:        609324 kB
+Mapped:           149556 kB
+Shmem:              2324 kB
+KReclaimable:      96512 kB
+Slab:             136928 kB
+SReclaimable:      96512 kB
+SUnreclaim:        40416 kB
+KernelStack:        4556 kB
+PageTables:         7164 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:     1015180 kB
+Committed_AS:    1833704 kB
+VmallocTotal:   34359738367 kB
+VmallocUsed:       12340 kB
+VmallocChunk:          0 kB
+Percpu:              556 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:         0 kB
+ShmemHugePages:        0 kB
+ShmemPmdMapped:        0 kB
+FileHugePages:         0 kB
+FilePmdMapped:         0 kB
+CmaTotal:              0 kB
+CmaFree:               0 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+Hugetlb:               0 kB
+DirectMap4k:      151416 kB
+DirectMap2M:     1945600 kB
+DirectMap1G:           0 kB
+ 22:03:44 up 4 days,  7:25,  0 users,  load average: 0.00, 0.01, 0.00
+ [ + ]  acpid
+ [ + ]  apparmor
+ [ + ]  apport
+ [ + ]  atd
+ [ - ]  console-setup.sh
+ [ + ]  cron
+ [ - ]  cryptdisks
+ [ - ]  cryptdisks-early
+ [ + ]  dbus
+ [ - ]  grub-common
+ [ - ]  hwclock.sh
+ [ - ]  irqbalance
+ [ + ]  iscsid
+ [ + ]  kdump-tools
+ [ + ]  kexec
+ [ + ]  kexec-load
+ [ - ]  keyboard-setup.sh
+ [ + ]  kmod
+ [ - ]  lvm2
+ [ - ]  lvm2-lvmpolld
+ [ + ]  multipath-tools
+ [ + ]  named
+ [ - ]  nfs-common
+ [ + ]  ntp
+ [ - ]  open-iscsi
+ [ - ]  open-vm-tools
+ [ - ]  plymouth
+ [ - ]  plymouth-log
+ [ + ]  procps
+ [ + ]  rpcbind
+ [ - ]  rsync
+ [ + ]  rsyslog
+ [ - ]  screen-cleanup
+ [ + ]  ssh
+ [ + ]  udev
+ [ - ]  ufw
+ [ + ]  unattended-upgrades
+ [ - ]  uuidd
+ [ - ]  x11-common
+eth0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 172.17.16.2  netmask 255.255.240.0  broadcast 172.17.31.255
+        inet6 fe80::5054:ff:fe59:f1df  prefixlen 64  scopeid 0x20<link>
+        ether 52:54:00:59:f1:df  txqueuelen 1000  (Ethernet)
+        RX packets 2182203  bytes 555579442 (555.5 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 1982793  bytes 403494091 (403.4 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 525404  bytes 736887843 (736.8 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 525404  bytes 736887843 (736.8 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+_gateway (172.17.16.1) at fe:ee:b5:81:6a:26 [ether] on eth0
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.0  0.4 169332  9100 ?        -    May11   0:03 /sbin/init
+root           -  0.0    -      -     - -        Ss   May11   0:03 -
+root           2  0.0  0.0      0     0 ?        -    May11   0:00 [kthreadd]
+root           -  0.0    -      -     - -        S    May11   0:00 -
+root           3  0.0  0.0      0     0 ?        -    May11   0:00 [rcu_gp]
+root           -  0.0    -      -     - -        I<   May11   0:00 -
+root           4  0.0  0.0      0     0 ?        -    May11   0:00 [rcu_par_gp]
+root           -  0.0    -      -     - -        I<   May11   0:00 -
+root           6  0.0  0.0      0     0 ?        -    May11   0:00 [kworker/0:0H-kblockd]
+root           -  0.0    -      -     - -        I<   May11   0:00 -
+root           9  0.0  0.0      0     0 ?        -    May11   0:00 [mm_percpu_wq]
+root           -  0.0    -      -     - -        I<   May11   0:00 -
+root          10  0.0  0.0      0     0 ?        -    May11   0:12 [ksoftirqd/0]
+root           -  0.0    -      -     - -        S    May11   0:12 -
+root          11  0.0  0.0      0     0 ?        -    May11   0:14 [rcu_sched]
+root           -  0.0    -      -     - -        I    May11   0:14 -
+root          12  0.0  0.0      0     0 ?        -    May11   0:00 [migration/0]
+root           -  0.0    -      -     - -        S    May11   0:00 -
+root          13  0.0  0.0      0     0 ?        -    May11   0:00 [idle_inject/0]
+root           -  0.0    -      -     - -        S    May11   0:00 -
+root          14  0.0  0.0      0     0 ?        -    May11   0:00 [cpuhp/0]
+root           -  0.0    -      -     - -        S    May11   0:00 -
+root          15  0.0  0.0      0     0 ?        -    May11   0:00 [kdevtmpfs]
+root           -  0.0    -      -     - -        S    May11   0:00 -
+root          16  0.0  0.0      0     0 ?        -    May11   0:00 [netns]
+root           -  0.0    -      -     - -        I<   May11   0:00 -
+root          17  0.0  0.0      0     0 ?        -    May11   0:00 [rcu_tasks_kthre]
+root           -  0.0    -      -     - -        S    May11   0:00 -
+root          18  0.0  0.0      0     0 ?        -    May11   0:00 [kauditd]
+root           -  0.0    -      -     - -        S    May11   0:00 -
+root          19  0.0  0.0      0     0 ?        -    May11   0:00 [khungtaskd]
+root           -  0.0    -      -     - -        S    May11   0:00 -
+root          20  0.0  0.0      0     0 ?        -    May11   0:00 [oom_reaper]
+root           -  0.0    -      -     - -        S    May11   0:00 -
+root          21  0.0  0.0      0     0 ?        -    May11   0:00 [writeback]
+root           -  0.0    -      -     - -        I<   May11   0:00 -
+root          22  0.0  0.0      0     0 ?        -    May11   0:00 [kcompactd0]
+root           -  0.0    -      -     - -        S    May11   0:00 -
+root          23  0.0  0.0      0     0 ?        -    May11   0:00 [ksmd]
+root           -  0.0    -      -     - -        SN   May11   0:00 -
+root          24  0.0  0.0      0     0 ?        -    May11   0:00 [khugepaged]
+root           -  0.0    -      -     - -        SN   May11   0:00 -
+root          70  0.0  0.0      0     0 ?        -    May11   0:00 [kintegrityd]
+root           -  0.0    -      -     - -        I<   May11   0:00 -
+root          71  0.0  0.0      0     0 ?        -    May11   0:00 [kblockd]
+root           -  0.0    -      -     - -        I<   May11   0:00 -
+root          72  0.0  0.0      0     0 ?        -    May11   0:00 [blkcg_punt_bio]
+root           -  0.0    -      -     - -        I<   May11   0:00 -
+root          73  0.0  0.0      0     0 ?        -    May11   0:00 [tpm_dev_wq]
+root           -  0.0    -      -     - -        I<   May11   0:00 -
+root          74  0.0  0.0      0     0 ?        -    May11   0:00 [ata_sff]
+root           -  0.0    -      -     - -        I<   May11   0:00 -
+root          75  0.0  0.0      0     0 ?        -    May11   0:00 [md]
+root           -  0.0    -      -     - -        I<   May11   0:00 -
+root          76  0.0  0.0      0     0 ?        -    May11   0:00 [edac-poller]
+root           -  0.0    -      -     - -        I<   May11   0:00 -
+root          77  0.0  0.0      0     0 ?        -    May11   0:00 [devfreq_wq]
+root           -  0.0    -      -     - -        I<   May11   0:00 -
+root          78  0.0  0.0      0     0 ?        -    May11   0:00 [watchdogd]
+root           -  0.0    -      -     - -        S    May11   0:00 -
+root          81  0.0  0.0      0     0 ?        -    May11   0:01 [kswapd0]
+root           -  0.0    -      -     - -        S    May11   0:01 -
+root          82  0.0  0.0      0     0 ?        -    May11   0:00 [ecryptfs-kthrea]
+root           -  0.0    -      -     - -        S    May11   0:00 -
+root          84  0.0  0.0      0     0 ?        -    May11   0:00 [kthrotld]
+root           -  0.0    -      -     - -        I<   May11   0:00 -
+root          85  0.0  0.0      0     0 ?        -    May11   0:00 [acpi_thermal_pm]
+root           -  0.0    -      -     - -        I<   May11   0:00 -
+root          86  0.0  0.0      0     0 ?        -    May11   0:00 [scsi_eh_0]
+root           -  0.0    -      -     - -        S    May11   0:00 -
+root          87  0.0  0.0      0     0 ?        -    May11   0:00 [scsi_tmf_0]
+root           -  0.0    -      -     - -        I<   May11   0:00 -
+root          88  0.0  0.0      0     0 ?        -    May11   0:00 [scsi_eh_1]
+root           -  0.0    -      -     - -        S    May11   0:00 -
+root          89  0.0  0.0      0     0 ?        -    May11   0:00 [scsi_tmf_1]
+root           -  0.0    -      -     - -        I<   May11   0:00 -
+root          92  0.0  0.0      0     0 ?        -    May11   0:00 [vfio-irqfd-clea]
+root           -  0.0    -      -     - -        I<   May11   0:00 -
+root          93  0.0  0.0      0     0 ?        -    May11   0:00 [ipv6_addrconf]
+root           -  0.0    -      -     - -        I<   May11   0:00 -
+root         102  0.0  0.0      0     0 ?        -    May11   0:00 [kstrp]
+root           -  0.0    -      -     - -        I<   May11   0:00 -
+root         105  0.0  0.0      0     0 ?        -    May11   0:00 [kworker/u3:0]
+root           -  0.0    -      -     - -        I<   May11   0:00 -
+root         118  0.0  0.0      0     0 ?        -    May11   0:00 [charger_manager]
+root           -  0.0    -      -     - -        I<   May11   0:00 -
+root         157  0.0  0.0      0     0 ?        -    May11   0:03 [kworker/0:1H-kblockd]
+root           -  0.0    -      -     - -        I<   May11   0:03 -
+root         159  0.0  0.0      0     0 ?        -    May11   0:00 [cryptd]
+root           -  0.0    -      -     - -        I<   May11   0:00 -
+root         224  0.0  0.0      0     0 ?        -    May11   0:00 [raid5wq]
+root           -  0.0    -      -     - -        I<   May11   0:00 -
+root         272  0.0  0.0      0     0 ?        -    May11   0:05 [jbd2/vda2-8]
+root           -  0.0    -      -     - -        S    May11   0:05 -
+root         273  0.0  0.0      0     0 ?        -    May11   0:00 [ext4-rsv-conver]
+root           -  0.0    -      -     - -        I<   May11   0:00 -
+root         347  0.0  2.7 108796 54880 ?        -    May11   0:08 /lib/systemd/systemd-journald
+root           -  0.0    -      -     - -        S<s  May11   0:08 -
+root         361  0.0  0.0      0     0 ?        -    May11   0:00 [rpciod]
+root           -  0.0    -      -     - -        I<   May11   0:00 -
+root         362  0.0  0.0      0     0 ?        -    May11   0:00 [xprtiod]
+root           -  0.0    -      -     - -        I<   May11   0:00 -
+root         378  0.0  0.1  21124  3912 ?        -    May11   0:00 /lib/systemd/systemd-udevd
+root           -  0.0    -      -     - -        Ss   May11   0:00 -
+root         521  0.0  0.0      0     0 ?        -    May11   0:00 [nfit]
+root           -  0.0    -      -     - -        I<   May11   0:00 -
+root         525  0.0  0.0      0     0 ?        -    May11   0:00 [kaluad]
+root           -  0.0    -      -     - -        I<   May11   0:00 -
+root         526  0.0  0.0      0     0 ?        -    May11   0:00 [kmpath_rdacd]
+root           -  0.0    -      -     - -        I<   May11   0:00 -
+root         527  0.0  0.0      0     0 ?        -    May11   0:00 [kmpathd]
+root           -  0.0    -      -     - -        I<   May11   0:00 -
+root         528  0.0  0.0      0     0 ?        -    May11   0:00 [kmpath_handlerd]
+root           -  0.0    -      -     - -        I<   May11   0:00 -
+root         529  0.0  0.8 214660 17996 ?        -    May11   0:13 /sbin/multipathd -d -s
+root           -  0.0    -      -     - -        SLsl May11   0:02 -
+root           -  0.0    -      -     - -        SLsl May11   0:01 -
+root           -  0.0    -      -     - -        SLsl May11   0:00 -
+root           -  0.0    -      -     - -        SLsl May11   0:00 -
+root           -  0.0    -      -     - -        SLsl May11   0:09 -
+root           -  0.0    -      -     - -        SLsl May11   0:00 -
+root           -  0.0    -      -     - -        SLsl May11   0:00 -
+_rpc         551  0.0  0.1   7100  3060 ?        -    May11   0:00 /sbin/rpcbind -f -w
+_rpc           -  0.0    -      -     - -        Ss   May11   0:00 -
+systemd+     625  0.0  0.2  26608  4248 ?        -    May11   0:00 /lib/systemd/systemd-networkd
+systemd+       -  0.0    -      -     - -        Ss   May11   0:00 -
+systemd+     627  0.0  0.4  23896  8708 ?        -    May11   0:09 /lib/systemd/systemd-resolved
+systemd+       -  0.0    -      -     - -        Ss   May11   0:09 -
+root         640  0.0  0.2 235684  4648 ?        -    May11   0:04 /usr/lib/accountsservice/accounts-daemon
+root           -  0.0    -      -     - -        Ssl  May11   0:00 -
+root           -  0.0    -      -     - -        Ssl  May11   0:04 -
+root           -  0.0    -      -     - -        Ssl  May11   0:00 -
+root         641  0.0  0.0   2540   780 ?        -    May11   0:00 /usr/sbin/acpid
+root           -  0.0    -      -     - -        Ss   May11   0:00 -
+message+     643  0.0  0.2   7564  4396 ?        -    May11   0:00 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+message+       -  0.0    -      -     - -        Ss   May11   0:00 -
+bind         660  0.0  0.9 218796 20092 ?        -    May11   0:25 /usr/sbin/named -f -u bind
+bind           -  0.0    -      -     - -        Ssl  May11   0:00 -
+bind           -  0.0    -      -     - -        Ssl  May11   0:00 -
+bind           -  0.0    -      -     - -        Ssl  May11   0:00 -
+bind           -  0.0    -      -     - -        Ssl  May11   0:24 -
+bind           -  0.0    -      -     - -        Ssl  May11   0:00 -
+root         661  0.0  0.6  29348 14080 ?        -    May11   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root           -  0.0    -      -     - -        Ss   May11   0:00 -
+syslog       666  0.0  0.1 224344  3964 ?        -    May11   0:01 /usr/sbin/rsyslogd -n -iNONE
+syslog         -  0.0    -      -     - -        Ssl  May11   0:00 -
+syslog         -  0.0    -      -     - -        Ssl  May11   0:00 -
+syslog         -  0.0    -      -     - -        Ssl  May11   0:00 -
+syslog         -  0.0    -      -     - -        Ssl  May11   0:00 -
+ntp          682  0.0  0.1  74632  3056 ?        -    May11   0:12 /usr/sbin/ntpd -p /var/run/ntpd.pid -g -u 112:117
+ntp            -  0.0    -      -     - -        Ssl  May11   0:12 -
+ntp            -  0.0    -      -     - -        Ssl  May11   0:00 -
+root         684  0.0  0.2  16700  5812 ?        -    May11   0:00 /lib/systemd/systemd-logind
+root           -  0.0    -      -     - -        Ss   May11   0:00 -
+root         703  0.0  0.3  22520  8120 ?        -    May11   4:08 /usr/local/qcloud/tat_agent/tat_agent
+root           -  0.0    -      -     - -        Sl   May11   0:00 -
+root           -  0.0    -      -     - -        Sl   May11   0:05 -
+root           -  0.0    -      -     - -        Sl   May11   1:33 -
+root           -  0.0    -      -     - -        Sl   May11   0:00 -
+root           -  0.0    -      -     - -        Sl   May11   2:24 -
+root         708  0.0  0.2  12172  5296 ?        -    May11   0:00 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
+root           -  0.0    -      -     - -        Ss   May11   0:00 -
+root         710  0.0  0.0   5108   220 ?        -    May11   0:04 /sbin/iscsid
+root           -  0.0    -      -     - -        Ss   May11   0:04 -
+root         711  0.0  0.2   5612  5464 ?        -    May11   0:00 /sbin/iscsid
+root           -  0.0    -      -     - -        S<Ls May11   0:00 -
+root         721  0.0  0.0      0     0 ?        -    May11   0:00 [iscsi_eh]
+root           -  0.0    -      -     - -        I<   May11   0:00 -
+root         768  0.0  0.1   6812  2708 ?        -    May11   0:01 /usr/sbin/cron -f
+root           -  0.0    -      -     - -        Ss   May11   0:01 -
+daemon       787  0.0  0.1   3792  2120 ?        -    May11   0:00 /usr/sbin/atd -f
+daemon         -  0.0    -      -     - -        Ss   May11   0:00 -
+root         837  0.0  0.7 107908 15256 ?        -    May11   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root           -  0.0    -      -     - -        Ssl  May11   0:00 -
+root           -  0.0    -      -     - -        Ssl  May11   0:00 -
+root         855  0.0  0.2 232712  4092 ?        -    May11   0:00 /usr/lib/policykit-1/polkitd --no-debug
+root           -  0.0    -      -     - -        Ssl  May11   0:00 -
+root           -  0.0    -      -     - -        Ssl  May11   0:00 -
+root           -  0.0    -      -     - -        Ssl  May11   0:00 -
+root         873  0.0  0.0   5600  2016 ttyS0    -    May11   0:00 /sbin/agetty -o -p -- \u --keep-baud 115200,38400,9600 ttyS0 vt220
+root           -  0.0    -      -     - -        Ss+  May11   0:00 -
+root         882  0.0  0.0   5828  1544 tty1     -    May11   0:00 /sbin/agetty -o -p -- \u --noclear tty1 linux
+root           -  0.0    -      -     - -        Ss+  May11   0:00 -
+root         945  0.0  0.3 1231388 8012 ?        -    May11   0:50 /usr/local/qcloud/YunJing/YDLive/YDLive
+root           -  0.0    -      -     - -        SLl  May11   0:00 -
+root           -  0.0    -      -     - -        SLl  May11   0:11 -
+root           -  0.0    -      -     - -        SLl  May11   0:00 -
+root           -  0.0    -      -     - -        SLl  May11   0:00 -
+root           -  0.0    -      -     - -        SLl  May11   0:00 -
+root           -  0.0    -      -     - -        SLl  May11   0:15 -
+root           -  0.0    -      -     - -        SLl  May11   0:13 -
+root           -  0.0    -      -     - -        SLl  May11   0:10 -
+root         965  0.0  0.1  81712  2772 ?        -    May11   0:01 /usr/local/qcloud/stargate/bin/sgagent -d
+root           -  0.0    -      -     - -        Sl   May11   0:01 -
+root           -  0.0    -      -     - -        Sl   May11   0:00 -
+root         982  0.0  0.4  42992  9076 ?        -    May11   0:03 barad_agent
+root           -  0.0    -      -     - -        S    May11   0:03 -
+root         988  0.0  0.5  46536 11092 ?        -    May11   3:37 barad_agent
+root           -  0.0    -      -     - -        S    May11   3:37 -
+root         989  0.2  0.7 492280 14268 ?        -    May11  14:19 barad_agent
+root           -  0.0    -      -     - -        Sl   May11   0:00 -
+root           -  0.0    -      -     - -        Sl   May11   4:40 -
+root           -  0.0    -      -     - -        Sl   May11   0:14 -
+root        1156  0.4  3.2 977744 65200 ?        -    May11  26:22 /usr/local/qcloud/YunJing/YDEyes/YDService
+root           -  0.0    -      -     - -        SLl  May11   0:00 -
+root           -  0.0    -      -     - -        SLl  May11   0:25 -
+root           -  0.0    -      -     - -        SLl  May11   5:06 -
+root           -  0.0    -      -     - -        SLl  May11   1:28 -
+root           -  0.0    -      -     - -        SLl  May11   1:02 -
+root           -  0.0    -      -     - -        SLl  May11   0:00 -
+root           -  0.0    -      -     - -        SLl  May11   0:14 -
+root           -  0.0    -      -     - -        SLl  May11   0:40 -
+root           -  0.0    -      -     - -        SLl  May11   0:15 -
+root           -  0.0    -      -     - -        SLl  May11   5:08 -
+root           -  0.0    -      -     - -        SLl  May11   1:27 -
+root           -  0.0    -      -     - -        SLl  May11   1:36 -
+root           -  0.0    -      -     - -        SLl  May11   0:01 -
+root           -  0.0    -      -     - -        SLl  May11   0:00 -
+root           -  0.0    -      -     - -        SLl  May11   1:50 -
+root           -  0.0    -      -     - -        SLl  May11   0:49 -
+root           -  0.0    -      -     - -        SLl  May11   0:00 -
+root           -  0.0    -      -     - -        SLl  May11   0:25 -
+root           -  0.0    -      -     - -        SLl  May11   1:10 -
+root           -  0.0    -      -     - -        SLl  May11   0:48 -
+root           -  0.0    -      -     - -        SLl  May11   0:47 -
+root           -  0.0    -      -     - -        SLl  May11   0:42 -
+root           -  0.0    -      -     - -        SLl  May11   1:28 -
+root           -  0.0    -      -     - -        SLl  May13   0:50 -
+root        1323  0.0  0.0   2488   572 ?        -    May11   0:00 bpfilter_umh
+root           -  0.0    -      -     - -        S    May11   0:00 -
+root        1526  0.0  0.2 1157288 4760 ?        -    May11   0:39 /bin/sh -c sleep 100
+root           -  0.0    -      -     - -        SLl  May11   0:00 -
+root           -  0.0    -      -     - -        SLl  May11   0:14 -
+root           -  0.0    -      -     - -        SLl  May11   0:09 -
+root           -  0.0    -      -     - -        SLl  May11   0:00 -
+root           -  0.0    -      -     - -        SLl  May11   0:00 -
+root           -  0.0    -      -     - -        SLl  May11   0:00 -
+root           -  0.0    -      -     - -        SLl  May11   0:15 -
+ubuntu     43727  0.0  0.2  18396  6072 ?        -    May11   0:00 /lib/systemd/systemd --user LANG=en_US.utf8 LANGUAGE=en_US.utf8: PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin NOTIFY_SOCKET=/run/systemd/notify HOME=/home/ubuntu LOGNAME=ubuntu USER=ubuntu SHELL=/bin/bash INVOCATION_ID=00336505639b49c9aafe7d4a251e25c0 JOURNAL_STREAM=9:261168 XDG_RUNTIME_DIR=/run/user/1000
+ubuntu         -  0.0    -      -     - -        Ss   May11   0:00 -
+ubuntu     43728  0.0  0.1 103116  3380 ?        -    May11   0:00 (sd-pam)
+ubuntu         -  0.0    -      -     - -        S    May11   0:00 -
+ubuntu     44120  0.0  0.1   7240  3012 ?        -    May11   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only HOME=/home/ubuntu LANG=en_US.utf8 LANGUAGE=en_US.utf8: LOGNAME=ubuntu PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin SHELL=/bin/bash USER=ubuntu XDG_RUNTIME_DIR=/run/user/1000 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus MANAGERPID=43727 LISTEN_PID=44120 LISTEN_FDS=1 LISTEN_FDNAMES=dbus.socket INVOCATION_ID=5ea38305f87240149f3a31d11b89059b JOURNAL_STREAM=9:263804
+ubuntu         -  0.0    -      -     - -        Ss   May11   0:00 -
+ubuntu     44140  0.0  0.1   7380  2464 ?        -    May11   0:00 SCREEN SHELL=/bin/bash COLORTERM=truecolor TERM_PROGRAM_VERSION=1.67.1 HISTSIZE=3000 LANGUAGE=en_US.utf8: HISTTIMEFORMAT=%F %T  PWD=/home/ubuntu LOGNAME=ubuntu XDG_SESSION_TYPE=tty MOTD_SHOWN=pam HOME=/home/ubuntu LANG=en_US.utf8 LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36: PROMPT_COMMAND=history -a; history -a; history -a;  SSH_CONNECTION=121.249.15.160 65193 172.17.16.2 22 LESSCLOSE=/usr/bin/lesspipe %s %s XDG_SESSION_CLASS=user TERM=xterm-256color LESSOPEN=| /usr/bin/lesspipe %s USER=ubuntu SHLVL=1 XDG_SESSION_ID=372 XDG_RUNTIME_DIR=/run/user/1000 SSH_CLIENT=121.249.15.160 65193 22 BROWSER=/home/ubuntu/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/bin/helpers/browser.sh PATH=/home/ubuntu/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/bin/remote-cli:/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus TERM_PROGRAM=vscode VSCODE_IPC_HOOK_CLI=/run/user/1000/vscode-ipc-5b80aee0-fec7-4584-9138-9e4dcd6f9a04.sock _=/usr/bin/screen
+ubuntu         -  0.0    -      -     - -        Ss   May11   0:00 -
+ubuntu     44141  0.0  0.2   8424  4812 pts/4    -    May11   0:00 /bin/bash STY=44140.pts-3.VM-16-2-ubuntu TERM=screen.xterm-256color TERMCAP=SC|screen.xterm-256color|VT 100/ANSI X3.64 virtual terminal:DO=\E[%dB:LE=\E[%dD:RI=\E[%dC:UP=\E[%dA:bs:bt=\E[Z:cd=\E[J:ce=\E[K:cl=\E[H\E[J:cm=\E[%i%d;%dH:ct=\E[3g:do=^J:nd=\E[C:pt:rc=\E8:rs=\Ec:sc=\E7:st=\EH:up=\EM:le=^H:bl=^G:cr=^M:it#8:ho=\E[H:nw=\EE:ta=^I:is=\E)0:li#22:co#193:am:xn:xv:LP:sr=\EM:al=\E[L:AL=\E[%dL:cs=\E[%i%d;%dr:dl=\E[M:DL=\E[%dM:dc=\E[P:DC=\E[%dP:im=\E[4h:ei=\E[4l:mi:IC=\E[%d@:ks=\E[?1h\E=:ke=\E[?1l\E>:vi=\E[?25l:ve=\E[34h\E[?25h:vs=\E[34l:ti=\E[?1049h:te=\E[?1049l:us=\E[4m:ue=\E[24m:so=\E[3m:se=\E[23m:mb=\E[5m:md=\E[1m:mh=\E[2m:mr=\E[7m:me=\E[m:ms:Co#8:pa#64:AF=\E[3%dm:AB=\E[4%dm:op=\E[39;49m:AX:vb=\Eg:G0:as=\E(0:ae=\E(B:ac=\140\140aaffggjjkkllmmnnooppqqrrssttuuvvwwxxyyzz{{||}}~~..--++,,hhII00:po=\E[5i:pf=\E[4i:Km=\E[M:k0=\E[10~:k1=\EOP:k2=\EOQ:k3=\EOR:k4=\EOS:k5=\E[15~:k6=\E[17~:k7=\E[18~:k8=\E[19~:k9=\E[20~:k;=\E[21~:F1=\E[23~:F2=\E[24~:kB=\E[Z:kh=\E[1~:@1=\E[1~:kH=\E[4~:@7=\E[4~:kN=\E[6~:kP=\E[5~:kI=\E[2~:kD=\E[3~:ku=\EOA:kd=\EOB:kr=\EOC:kl=\EOD:km: WINDOW=0 SHELL=/bin/bash COLORTERM=truecolor TERM_PROGRAM_VERSION=1.67.1 HISTSIZE=3000 LANGUAGE=en_US.utf8: HISTTIMEFORMAT=%F %T  PWD=/home/ubuntu LOGNAME=ubuntu XDG_SESSION_TYPE=tty MOTD_SHOWN=pam HOME=/home/ubuntu LANG=en_US.utf8 LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36: PROMPT_COMMAND=history -a; history -a; history -a;  SSH_CONNECTION=121.249.15.160 65193 172.17.16.2 22 LESSCLOSE=/usr/bin/lesspipe %s %s XDG_SESSION_CLASS=user LESSOPEN=| /usr/bin/lesspipe %s USER=ubuntu SHLVL=1 XDG_SESSION_ID=372 XDG_RUNTIME_DIR=/run/user/1000 SSH_CLIENT=121.249.15.160 65193 22 BROWSER=/home/ubuntu/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/bin/helpers/browser.sh PATH=/home/ubuntu/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/bin/remote-cli:/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus TERM_PROGRAM=vscode VSCODE_IPC_HOOK_CLI=/run/user/1000/vscode-ipc-5b80aee0-fec7-4584-9138-9e4dcd6f9a04.sock _=/usr/bin/screen
+ubuntu         -  0.0    -      -     - -        Ss   May11   0:00 -
+ubuntu     44201  0.0  0.0   2608   600 pts/4    -    May11   0:00 sh ./mcl SHELL=/bin/bash COLORTERM=truecolor TERM_PROGRAM_VERSION=1.67.1 HISTSIZE=3000 LANGUAGE=en_US.utf8: TERMCAP=SC|screen.xterm-256color|VT 100/ANSI X3.64 virtual terminal:DO=\E[%dB:LE=\E[%dD:RI=\E[%dC:UP=\E[%dA:bs:bt=\E[Z:cd=\E[J:ce=\E[K:cl=\E[H\E[J:cm=\E[%i%d;%dH:ct=\E[3g:do=^J:nd=\E[C:pt:rc=\E8:rs=\Ec:sc=\E7:st=\EH:up=\EM:le=^H:bl=^G:cr=^M:it#8:ho=\E[H:nw=\EE:ta=^I:is=\E)0:li#22:co#193:am:xn:xv:LP:sr=\EM:al=\E[L:AL=\E[%dL:cs=\E[%i%d;%dr:dl=\E[M:DL=\E[%dM:dc=\E[P:DC=\E[%dP:im=\E[4h:ei=\E[4l:mi:IC=\E[%d@:ks=\E[?1h\E=:ke=\E[?1l\E>:vi=\E[?25l:ve=\E[34h\E[?25h:vs=\E[34l:ti=\E[?1049h:te=\E[?1049l:us=\E[4m:ue=\E[24m:so=\E[3m:se=\E[23m:mb=\E[5m:md=\E[1m:mh=\E[2m:mr=\E[7m:me=\E[m:ms:Co#8:pa#64:AF=\E[3%dm:AB=\E[4%dm:op=\E[39;49m:AX:vb=\Eg:G0:as=\E(0:ae=\E(B:ac=\140\140aaffggjjkkllmmnnooppqqrrssttuuvvwwxxyyzz{{||}}~~..--++,,hhII00:po=\E[5i:pf=\E[4i:Km=\E[M:k0=\E[10~:k1=\EOP:k2=\EOQ:k3=\EOR:k4=\EOS:k5=\E[15~:k6=\E[17~:k7=\E[18~:k8=\E[19~:k9=\E[20~:k;=\E[21~:F1=\E[23~:F2=\E[24~:kB=\E[Z:kh=\E[1~:@1=\E[1~:kH=\E[4~:@7=\E[4~:kN=\E[6~:kP=\E[5~:kI=\E[2~:kD=\E[3~:ku=\EOA:kd=\EOB:kr=\EOC:kl=\EOD:km: HISTTIMEFORMAT=%F %T  WINDOW=0 PWD=/home/ubuntu/tataBot/mcl LOGNAME=ubuntu XDG_SESSION_TYPE=tty MOTD_SHOWN=pam HOME=/home/ubuntu LANG=en_US.utf8 LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36: PROMPT_COMMAND=history -a; history -a; history -a; history -a;  SSH_CONNECTION=121.249.15.160 65193 172.17.16.2 22 LESSCLOSE=/usr/bin/lesspipe %s %s XDG_SESSION_CLASS=user TERM=screen.xterm-256color LESSOPEN=| /usr/bin/lesspipe %s USER=ubuntu SHLVL=2 XDG_SESSION_ID=372 XDG_RUNTIME_DIR=/run/user/1000 SSH_CLIENT=121.249.15.160 65193 22 BROWSER=/home/ubuntu/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/bin/helpers/browser.sh PATH=/home/ubuntu/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/bin/remote-cli:/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin STY=44140.pts-3.VM-16-2-ubuntu DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus TERM_PROGRAM=vscode VSCODE_IPC_HOOK_CLI=/run/user/1000/vscode-ipc-5b80aee0-fec7-4584-9138-9e4dcd6f9a04.sock OLDPWD=/home/ubuntu _=./mcl
+ubuntu         -  0.0    -      -     - -        S+   May11   0:00 -
+ubuntu     44202  0.0 15.1 2657712 306832 pts/4  -    May11   5:01 java -jar mcl.jar LESSOPEN=| /usr/bin/lesspipe %s HISTTIMEFORMAT=%F %T  LANGUAGE=en_US.utf8: USER=ubuntu SSH_CLIENT=121.249.15.160 65193 22 XDG_SESSION_TYPE=tty SHLVL=2 BROWSER=/home/ubuntu/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/bin/helpers/browser.sh MOTD_SHOWN=pam HOME=/home/ubuntu OLDPWD=/home/ubuntu TERM_PROGRAM_VERSION=1.67.1 VSCODE_IPC_HOOK_CLI=/run/user/1000/vscode-ipc-5b80aee0-fec7-4584-9138-9e4dcd6f9a04.sock DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus COLORTERM=truecolor LOGNAME=ubuntu _=./mcl XDG_SESSION_CLASS=user TERM=screen.xterm-256color XDG_SESSION_ID=372 PATH=/home/ubuntu/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/bin/remote-cli:/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin XDG_RUNTIME_DIR=/run/user/1000 HISTSIZE=3000 LANG=en_US.utf8 STY=44140.pts-3.VM-16-2-ubuntu LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36: TERM_PROGRAM=vscode SHELL=/bin/bash PROMPT_COMMAND=history -a; history -a; history -a; history -a;  LESSCLOSE=/usr/bin/lesspipe %s %s WINDOW=0 PWD=/home/ubuntu/tataBot/mcl JAVA_BINARY=java SSH_CONNECTION=121.249.15.160 65193 172.17.16.2 22 TERMCAP=SC|screen.xterm-256color|VT 100/ANSI X3.64 virtual terminal:DO=\E[%dB:LE=\E[%dD:RI=\E[%dC:UP=\E[%dA:bs:bt=\E[Z:cd=\E[J:ce=\E[K:cl=\E[H\E[J:cm=\E[%i%d;%dH:ct=\E[3g:do=^J:nd=\E[C:pt:rc=\E8:rs=\Ec:sc=\E7:st=\EH:up=\EM:le=^H:bl=^G:cr=^M:it#8:ho=\E[H:nw=\EE:ta=^I:is=\E)0:li#22:co#193:am:xn:xv:LP:sr=\EM:al=\E[L:AL=\E[%dL:cs=\E[%i%d;%dr:dl=\E[M:DL=\E[%dM:dc=\E[P:DC=\E[%dP:im=\E[4h:ei=\E[4l:mi:IC=\E[%d@:ks=\E[?1h\E=:ke=\E[?1l\E>:vi=\E[?25l:ve=\E[34h\E[?25h:vs=\E[34l:ti=\E[?1049h:te=\E[?1049l:us=\E[4m:ue=\E[24m:so=\E[3m:se=\E[23m:mb=\E[5m:md=\E[1m:mh=\E[2m:mr=\E[7m:me=\E[m:ms:Co#8:pa#64:AF=\E[3%dm:AB=\E[4%dm:op=\E[39;49m:AX:vb=\Eg:G0:as=\E(0:ae=\E(B:ac=\140\140aaffggjjkkllmmnnooppqqrrssttuuvvwwxxyyzz{{||}}~~..--++,,hhII00:po=\E[5i:pf=\E[4i:Km=\E[M:k0=\E[10~:k1=\EOP:k2=\EOQ:k3=\EOR:k4=\EOS:k5=\E[15~:k6=\E[17~:k7=\E[18~:k8=\E[19~:k9=\E[20~:k;=\E[21~:F1=\E[23~:F2=\E[24~:kB=\E[Z:kh=\E[1~:@1=\E[1~:kH=\E[4~:@7=\E[4~:kN=\E[6~:kP=\E[5~:kI=\E[2~:kD=\E[3~:ku=\EOA:kd=\EOB:kr=\EOC:kl=\EOD:km:
+ubuntu         -  0.0    -      -     - -        Sl+  May11   0:00 -
+ubuntu         -  0.0    -      -     - -        Sl+  May11   0:02 -
+ubuntu         -  0.0    -      -     - -        Sl+  May11   0:14 -
+ubuntu         -  0.0    -      -     - -        Sl+  May11   0:00 -
+ubuntu         -  0.0    -      -     - -        Sl+  May11   0:00 -
+ubuntu         -  0.0    -      -     - -        Sl+  May11   0:00 -
+ubuntu         -  0.0    -      -     - -        Sl+  May11   0:00 -
+ubuntu         -  0.0    -      -     - -        Sl+  May11   0:19 -
+ubuntu         -  0.0    -      -     - -        Sl+  May11   0:05 -
+ubuntu         -  0.0    -      -     - -        Sl+  May11   0:00 -
+ubuntu         -  0.0    -      -     - -        Sl+  May11   2:07 -
+ubuntu         -  0.0    -      -     - -        Sl+  May11   0:00 -
+ubuntu         -  0.0    -      -     - -        Sl+  May11   0:03 -
+ubuntu         -  0.0    -      -     - -        Sl+  May11   0:00 -
+ubuntu         -  0.0    -      -     - -        Sl+  May11   0:00 -
+ubuntu         -  0.0    -      -     - -        Sl+  May11   0:00 -
+ubuntu         -  0.0    -      -     - -        Sl+  May11   0:22 -
+ubuntu         -  0.0    -      -     - -        Sl+  May11   0:00 -
+ubuntu         -  0.0    -      -     - -        Sl+  May11   0:00 -
+ubuntu         -  0.0    -      -     - -        Sl+  May11   0:00 -
+ubuntu         -  0.0    -      -     - -        Sl+  May11   0:00 -
+ubuntu         -  0.0    -      -     - -        Sl+  May11   0:00 -
+ubuntu         -  0.0    -      -     - -        Sl+  May11   0:00 -
+ubuntu         -  0.0    -      -     - -        Sl+  May11   0:00 -
+ubuntu         -  0.0    -      -     - -        Sl+  May11   0:00 -
+ubuntu         -  0.0    -      -     - -        Sl+  May11   0:00 -
+ubuntu         -  0.0    -      -     - -        Sl+  May11   0:00 -
+ubuntu         -  0.0    -      -     - -        Sl+  May11   0:00 -
+ubuntu         -  0.0    -      -     - -        Sl+  May11   0:00 -
+ubuntu         -  0.0    -      -     - -        Sl+  May11   0:00 -
+ubuntu         -  0.0    -      -     - -        Sl+  May11   1:05 -
+ubuntu         -  0.0    -      -     - -        Sl+  May11   0:06 -
+ubuntu         -  0.0    -      -     - -        Sl+  May11   0:00 -
+ubuntu         -  0.0    -      -     - -        Sl+  May11   0:02 -
+ubuntu         -  0.0    -      -     - -        Sl+  May11   0:00 -
+ubuntu         -  0.0    -      -     - -        Sl+  May11   0:00 -
+ubuntu         -  0.0    -      -     - -        Sl+  May11   0:00 -
+ubuntu         -  0.0    -      -     - -        Sl+  May11   0:00 -
+ubuntu         -  0.0    -      -     - -        Sl+  May11   0:00 -
+ubuntu         -  0.0    -      -     - -        Sl+  04:57   0:00 -
+ubuntu         -  0.0    -      -     - -        Sl+  04:57   0:00 -
+ubuntu         -  0.0    -      -     - -        Sl+  04:57   0:00 -
+ubuntu         -  0.0    -      -     - -        Sl+  04:57   0:00 -
+ubuntu         -  0.0    -      -     - -        Sl+  04:57   0:00 -
+ubuntu         -  0.0    -      -     - -        Sl+  16:35   0:00 -
+ubuntu         -  0.0    -      -     - -        Sl+  17:46   0:00 -
+ubuntu         -  0.0    -      -     - -        Sl+  17:59   0:00 -
+ubuntu         -  0.0    -      -     - -        Sl+  18:42   0:00 -
+ubuntu         -  0.0    -      -     - -        Sl+  19:12   0:00 -
+ubuntu         -  0.0    -      -     - -        Sl+  19:19   0:00 -
+root      733449  0.0  0.0      0     0 ?        -    May14   0:31 [kworker/0:1-events]
+root           -  0.0    -      -     - -        I    May14   0:31 -
+root      859283  0.0  0.0      0     0 ?        -    12:24   0:00 [kworker/0:2]
+root           -  0.0    -      -     - -        I    12:24   0:00 -
+root      916893  0.0  0.0      0     0 ?        -    19:04   0:00 [kworker/u2:1-events_unbound]
+root           -  0.0    -      -     - -        I    19:04   0:00 -
+root      919931  0.0  0.0      0     0 ?        -    19:25   0:00 [kworker/u2:2-events_power_efficient]
+root           -  0.0    -      -     - -        I    19:25   0:00 -
+root      920594  0.0  0.4  13792  8948 ?        -    19:30   0:00 sshd: ubuntu [priv]
+root           -  0.0    -      -     - -        Ss   19:30   0:00 -
+ubuntu    920694  0.0  0.3  14312  6296 ?        -    19:30   0:00 sshd: ubuntu@notty
+ubuntu         -  0.0    -      -     - -        S    19:30   0:00 -
+ubuntu    920698  0.0  0.1   7024  3748 ?        -    19:30   0:00 bash SHELL=/bin/bash LANGUAGE=en_US.utf8: PWD=/home/ubuntu LOGNAME=ubuntu XDG_SESSION_TYPE=tty MOTD_SHOWN=pam HOME=/home/ubuntu LANG=en_US.utf8 SSH_CONNECTION=121.249.15.160 61268 172.17.16.2 22 XDG_SESSION_CLASS=user USER=ubuntu SHLVL=0 XDG_SESSION_ID=9037 XDG_RUNTIME_DIR=/run/user/1000 SSH_CLIENT=121.249.15.160 61268 22 PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus _=/usr/bin/bash
+ubuntu         -  0.0    -      -     - -        Ss   19:30   0:00 -
+ubuntu    920742  0.0  0.0   2608   536 ?        -    19:30   0:00 sh /home/ubuntu/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/bin/code-server --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level all --connection-token-file /home/ubuntu/.vscode-server/.da15b6fd3ef856477bf6f4fb29ba1b7af717770d.token SHELL=/bin/bash LANGUAGE=en_US.utf8: PWD=/home/ubuntu LOGNAME=ubuntu XDG_SESSION_TYPE=tty MOTD_SHOWN=pam HOME=/home/ubuntu LANG=en_US.utf8 VSCODE_AGENT_FOLDER=/home/ubuntu/.vscode-server SSH_CONNECTION=121.249.15.160 61268 172.17.16.2 22 XDG_SESSION_CLASS=user USER=ubuntu SHLVL=0 XDG_SESSION_ID=9037 XDG_RUNTIME_DIR=/run/user/1000 SSH_CLIENT=121.249.15.160 61268 22 PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus _=/home/ubuntu/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/bin/code-server
+ubuntu         -  0.0    -      -     - -        S    19:30   0:00 -
+ubuntu    920752  0.8  3.7 856628 75464 ?        -    19:30   0:03 /home/ubuntu/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/node /home/ubuntu/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/out/server-main.js --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level all --connection-token-file /home/ubuntu/.vscode-server/.da15b6fd3ef856477bf6f4fb29ba1b7af717770d.token LANGUAGE=en_US.utf8: USER=ubuntu SSH_CLIENT=121.249.15.160 61268 22 XDG_SESSION_TYPE=tty SHLVL=0 MOTD_SHOWN=pam HOME=/home/ubuntu DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus LOGNAME=ubuntu _=/home/ubuntu/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/bin/code-server XDG_SESSION_CLASS=user XDG_SESSION_ID=9037 PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin VSCODE_AGENT_FOLDER=/home/ubuntu/.vscode-server XDG_RUNTIME_DIR=/run/user/1000 LANG=en_US.utf8 SHELL=/bin/bash PWD=/home/ubuntu SSH_CONNECTION=121.249.15.160 61268 172.17.16.2 22
+ubuntu         -  0.5    -      -     - -        Sl   19:30   0:02 -
+ubuntu         -  0.0    -      -     - -        Sl   19:30   0:00 -
+ubuntu         -  0.0    -      -     - -        Sl   19:30   0:00 -
+ubuntu         -  0.0    -      -     - -        Sl   19:30   0:00 -
+ubuntu         -  0.0    -      -     - -        Sl   19:30   0:00 -
+ubuntu         -  0.0    -      -     - -        Sl   19:30   0:00 -
+ubuntu         -  0.0    -      -     - -        Sl   19:30   0:00 -
+ubuntu         -  0.0    -      -     - -        Sl   19:30   0:00 -
+ubuntu         -  0.0    -      -     - -        Sl   19:30   0:00 -
+ubuntu         -  0.0    -      -     - -        Sl   19:30   0:00 -
+ubuntu         -  0.0    -      -     - -        Sl   19:30   0:00 -
+ubuntu    920789  0.2  2.8 865200 57040 ?        -    19:30   0:00 /home/ubuntu/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/node /home/ubuntu/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/out/bootstrap-fork --type=ptyHost LANGUAGE=en_US.utf8: USER=ubuntu SSH_CLIENT=121.249.15.160 61268 22 XDG_SESSION_TYPE=tty SHLVL=0 MOTD_SHOWN=pam HOME=/home/ubuntu DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus LOGNAME=ubuntu _=/home/ubuntu/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/bin/code-server XDG_SESSION_CLASS=user XDG_SESSION_ID=9037 PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin VSCODE_AGENT_FOLDER=/home/ubuntu/.vscode-server XDG_RUNTIME_DIR=/run/user/1000 LANG=en_US.utf8 SHELL=/bin/bash PWD=/home/ubuntu SSH_CONNECTION=121.249.15.160 61268 172.17.16.2 22 VSCODE_HANDLES_SIGPIPE=true VSCODE_PARENT_PID=920752 VSCODE_LAST_PTY_ID=0 VSCODE_AMD_ENTRYPOINT=vs/platform/terminal/node/ptyHostMain VSCODE_PIPE_LOGGING=true VSCODE_VERBOSE_LOGGING=true VSCODE_RECONNECT_GRACE_TIME=10800000 VSCODE_RECONNECT_SHORT_GRACE_TIME=300000 VSCODE_RECONNECT_SCROLLBACK=100 NODE_CHANNEL_FD=3 NODE_CHANNEL_SERIALIZATION_MODE=json
+ubuntu         -  0.2    -      -     - -        Sl   19:30   0:00 -
+ubuntu         -  0.0    -      -     - -        Sl   19:30   0:00 -
+ubuntu         -  0.0    -      -     - -        Sl   19:30   0:00 -
+ubuntu         -  0.0    -      -     - -        Sl   19:30   0:00 -
+ubuntu         -  0.0    -      -     - -        Sl   19:30   0:00 -
+ubuntu         -  0.0    -      -     - -        Sl   19:30   0:00 -
+ubuntu         -  0.0    -      -     - -        Sl   19:30   0:00 -
+ubuntu         -  0.0    -      -     - -        Sl   19:30   0:00 -
+ubuntu         -  0.0    -      -     - -        Sl   19:30   0:00 -
+ubuntu         -  0.0    -      -     - -        Sl   19:30   0:00 -
+ubuntu         -  0.0    -      -     - -        Sl   19:30   0:00 -
+ubuntu         -  0.0    -      -     - -        Sl   19:30   0:00 -
+ubuntu    920813  0.7  5.1 892052 105096 ?       -    19:30   0:02 /home/ubuntu/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/node /home/ubuntu/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=false LANGUAGE=en_US.utf8: USER=ubuntu SSH_CLIENT=121.249.15.160 61268 22 XDG_SESSION_TYPE=tty SHLVL=0 MOTD_SHOWN=pam HOME=/home/ubuntu DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus LOGNAME=ubuntu _=/home/ubuntu/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/node XDG_SESSION_CLASS=user XDG_SESSION_ID=9037 PATH=/home/ubuntu/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/bin/remote-cli:/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin VSCODE_AGENT_FOLDER=/home/ubuntu/.vscode-server XDG_RUNTIME_DIR=/run/user/1000 LANG=en_US.utf8 SHELL=/bin/bash PWD=/home/ubuntu SSH_CONNECTION=121.249.15.160 61268 172.17.16.2 22 VSCODE_HANDLES_SIGPIPE=true HISTSIZE=3000 HISTTIMEFORMAT=%F %T  LS_COLORS= PROMPT_COMMAND=history -a; history -a;  LESSCLOSE=/usr/bin/lesspipe %s %s LESSOPEN=| /usr/bin/lesspipe %s VSCODE_LOG_NATIVE=false VSCODE_AMD_ENTRYPOINT=vs/workbench/api/node/extensionHostProcess VSCODE_PIPE_LOGGING=true VSCODE_VERBOSE_LOGGING=true VSCODE_EXTHOST_WILL_SEND_SOCKET=true VSCODE_HANDLES_UNCAUGHT_ERRORS=true VSCODE_LOG_STACK=false VSCODE_NLS_CONFIG={"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"42e84e0914b17800d483f69e299e1b00.zh-cn","_translationsConfigFile":"/home/ubuntu/.vscode-server/data/clp/42e84e0914b17800d483f69e299e1b00.zh-cn/tcf.json","_cacheRoot":"/home/ubuntu/.vscode-server/data/clp/42e84e0914b17800d483f69e299e1b00.zh-cn","_resolvedLanguagePackCoreLocation":"/home/ubuntu/.vscode-server/data/clp/42e84e0914b17800d483f69e299e1b00.zh-cn/da15b6fd3ef856477bf6f4fb29ba1b7af717770d","_corruptedFile":"/home/ubuntu/.vscode-server/data/clp/42e84e0914b17800d483f69e299e1b00.zh-cn/corrupted.info","_languagePackSupport":true} BROWSER=/home/ubuntu/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/bin/helpers/browser.sh NODE_CHANNEL_FD=3 NODE_CHANNEL_SERIALIZATION_MODE=json
+ubuntu         -  0.5    -      -     - -        Sl   19:30   0:02 -
+ubuntu         -  0.0    -      -     - -        Sl   19:30   0:00 -
+ubuntu         -  0.0    -      -     - -        Sl   19:30   0:00 -
+ubuntu         -  0.0    -      -     - -        Sl   19:30   0:00 -
+ubuntu         -  0.0    -      -     - -        Sl   19:30   0:00 -
+ubuntu         -  0.0    -      -     - -        Sl   19:30   0:00 -
+ubuntu         -  0.0    -      -     - -        Sl   19:30   0:00 -
+ubuntu         -  0.0    -      -     - -        Sl   19:30   0:00 -
+ubuntu         -  0.0    -      -     - -        Sl   19:30   0:00 -
+ubuntu         -  0.0    -      -     - -        Sl   19:30   0:00 -
+ubuntu         -  0.0    -      -     - -        Sl   19:30   0:00 -
+ubuntu         -  0.0    -      -     - -        Sl   19:30   0:00 -
+ubuntu    920830  0.0  2.4 834532 49124 ?        -    19:30   0:00 /home/ubuntu/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/node /home/ubuntu/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/out/bootstrap-fork --type=fileWatcher LANGUAGE=en_US.utf8: USER=ubuntu SSH_CLIENT=121.249.15.160 61268 22 XDG_SESSION_TYPE=tty SHLVL=0 MOTD_SHOWN=pam HOME=/home/ubuntu DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus LOGNAME=ubuntu _=/home/ubuntu/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/bin/code-server XDG_SESSION_CLASS=user XDG_SESSION_ID=9037 PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin VSCODE_AGENT_FOLDER=/home/ubuntu/.vscode-server XDG_RUNTIME_DIR=/run/user/1000 LANG=en_US.utf8 SHELL=/bin/bash PWD=/home/ubuntu SSH_CONNECTION=121.249.15.160 61268 172.17.16.2 22 VSCODE_HANDLES_SIGPIPE=true VSCODE_PARENT_PID=920752 VSCODE_AMD_ENTRYPOINT=vs/platform/files/node/watcher/watcherMain VSCODE_PIPE_LOGGING=true VSCODE_VERBOSE_LOGGING=true NODE_CHANNEL_FD=3 NODE_CHANNEL_SERIALIZATION_MODE=json
+ubuntu         -  0.0    -      -     - -        Sl   19:30   0:00 -
+ubuntu         -  0.0    -      -     - -        Sl   19:30   0:00 -
+ubuntu         -  0.0    -      -     - -        Sl   19:30   0:00 -
+ubuntu         -  0.0    -      -     - -        Sl   19:30   0:00 -
+ubuntu         -  0.0    -      -     - -        Sl   19:30   0:00 -
+ubuntu         -  0.0    -      -     - -        Sl   19:30   0:00 -
+ubuntu         -  0.0    -      -     - -        Sl   19:30   0:00 -
+ubuntu         -  0.0    -      -     - -        Sl   19:30   0:00 -
+ubuntu         -  0.0    -      -     - -        Sl   19:30   0:00 -
+ubuntu         -  0.0    -      -     - -        Sl   19:30   0:00 -
+ubuntu         -  0.0    -      -     - -        Sl   19:30   0:00 -
+ubuntu         -  0.0    -      -     - -        Sl   19:30   0:00 -
+ubuntu         -  0.0    -      -     - -        Sl   19:30   0:00 -
+ubuntu    920870  0.0  2.7 634852 56352 ?        -    19:30   0:00 /home/ubuntu/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/node /home/ubuntu/.vscode-server/extensions/streetsidesoftware.code-spell-checker-2.1.11/packages/_server/dist/main.js --node-ipc --clientProcessId=920813 LANGUAGE=en_US.utf8: USER=ubuntu SSH_CLIENT=121.249.15.160 61268 22 XDG_SESSION_TYPE=tty SHLVL=0 MOTD_SHOWN=pam HOME=/home/ubuntu DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus LOGNAME=ubuntu _=/home/ubuntu/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/node XDG_SESSION_CLASS=user XDG_SESSION_ID=9037 PATH=/home/ubuntu/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/bin/remote-cli:/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin VSCODE_AGENT_FOLDER=/home/ubuntu/.vscode-server XDG_RUNTIME_DIR=/run/user/1000 LANG=en_US.utf8 SHELL=/bin/bash PWD=/home/ubuntu SSH_CONNECTION=121.249.15.160 61268 172.17.16.2 22 VSCODE_HANDLES_SIGPIPE=true HISTSIZE=3000 HISTTIMEFORMAT=%F %T  LS_COLORS= PROMPT_COMMAND=history -a; history -a;  LESSCLOSE=/usr/bin/lesspipe %s %s LESSOPEN=| /usr/bin/lesspipe %s VSCODE_LOG_NATIVE=false VSCODE_AMD_ENTRYPOINT=vs/workbench/api/node/extensionHostProcess VSCODE_PIPE_LOGGING=true VSCODE_VERBOSE_LOGGING=true VSCODE_EXTHOST_WILL_SEND_SOCKET=true VSCODE_HANDLES_UNCAUGHT_ERRORS=true VSCODE_LOG_STACK=false VSCODE_NLS_CONFIG={"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"42e84e0914b17800d483f69e299e1b00.zh-cn","_translationsConfigFile":"/home/ubuntu/.vscode-server/data/clp/42e84e0914b17800d483f69e299e1b00.zh-cn/tcf.json","_cacheRoot":"/home/ubuntu/.vscode-server/data/clp/42e84e0914b17800d483f69e299e1b00.zh-cn","_resolvedLanguagePackCoreLocation":"/home/ubuntu/.vscode-server/data/clp/42e84e0914b17800d483f69e299e1b00.zh-cn/da15b6fd3ef856477bf6f4fb29ba1b7af717770d","_corruptedFile":"/home/ubuntu/.vscode-server/data/clp/42e84e0914b17800d483f69e299e1b00.zh-cn/corrupted.info","_languagePackSupport":true} BROWSER=/home/ubuntu/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/bin/helpers/browser.sh VSCODE_CWD=/home/ubuntu VSCODE_IPC_HOOK_CLI=/run/user/1000/vscode-ipc-ab8f82d8-4702-4abf-9513-f6a353d3dd23.sock APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL=true ELECTRON_RUN_AS_NODE=1 ELECTRON_NO_ASAR=1 NODE_CHANNEL_FD=3 NODE_CHANNEL_SERIALIZATION_MODE=json
+ubuntu         -  0.0    -      -     - -        Sl   19:30   0:00 -
+ubuntu         -  0.0    -      -     - -        Sl   19:30   0:00 -
+ubuntu         -  0.0    -      -     - -        Sl   19:30   0:00 -
+ubuntu         -  0.0    -      -     - -        Sl   19:30   0:00 -
+ubuntu         -  0.0    -      -     - -        Sl   19:30   0:00 -
+ubuntu         -  0.0    -      -     - -        Sl   19:30   0:00 -
+ubuntu         -  0.0    -      -     - -        Sl   19:30   0:00 -
+ubuntu         -  0.0    -      -     - -        Sl   19:30   0:00 -
+ubuntu         -  0.0    -      -     - -        Sl   19:30   0:00 -
+ubuntu         -  0.0    -      -     - -        Sl   19:30   0:00 -
+ubuntu         -  0.0    -      -     - -        Sl   19:30   0:00 -
+ubuntu    920893  0.0  1.8 587608 38552 ?        -    19:30   0:00 /home/ubuntu/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/node /home/ubuntu/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/extensions/json-language-features/server/dist/node/jsonServerMain --node-ipc --clientProcessId=920813 LANGUAGE=en_US.utf8: USER=ubuntu SSH_CLIENT=121.249.15.160 61268 22 XDG_SESSION_TYPE=tty SHLVL=0 MOTD_SHOWN=pam HOME=/home/ubuntu DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus LOGNAME=ubuntu _=/home/ubuntu/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/node XDG_SESSION_CLASS=user XDG_SESSION_ID=9037 PATH=/home/ubuntu/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/bin/remote-cli:/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin VSCODE_AGENT_FOLDER=/home/ubuntu/.vscode-server XDG_RUNTIME_DIR=/run/user/1000 LANG=en_US.utf8 SHELL=/bin/bash PWD=/home/ubuntu SSH_CONNECTION=121.249.15.160 61268 172.17.16.2 22 VSCODE_HANDLES_SIGPIPE=true HISTSIZE=3000 HISTTIMEFORMAT=%F %T  LS_COLORS= PROMPT_COMMAND=history -a; history -a;  LESSCLOSE=/usr/bin/lesspipe %s %s LESSOPEN=| /usr/bin/lesspipe %s VSCODE_LOG_NATIVE=false VSCODE_AMD_ENTRYPOINT=vs/workbench/api/node/extensionHostProcess VSCODE_PIPE_LOGGING=true VSCODE_VERBOSE_LOGGING=true VSCODE_EXTHOST_WILL_SEND_SOCKET=true VSCODE_HANDLES_UNCAUGHT_ERRORS=true VSCODE_LOG_STACK=false VSCODE_NLS_CONFIG={"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"42e84e0914b17800d483f69e299e1b00.zh-cn","_translationsConfigFile":"/home/ubuntu/.vscode-server/data/clp/42e84e0914b17800d483f69e299e1b00.zh-cn/tcf.json","_cacheRoot":"/home/ubuntu/.vscode-server/data/clp/42e84e0914b17800d483f69e299e1b00.zh-cn","_resolvedLanguagePackCoreLocation":"/home/ubuntu/.vscode-server/data/clp/42e84e0914b17800d483f69e299e1b00.zh-cn/da15b6fd3ef856477bf6f4fb29ba1b7af717770d","_corruptedFile":"/home/ubuntu/.vscode-server/data/clp/42e84e0914b17800d483f69e299e1b00.zh-cn/corrupted.info","_languagePackSupport":true} BROWSER=/home/ubuntu/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/bin/helpers/browser.sh VSCODE_CWD=/home/ubuntu VSCODE_IPC_HOOK_CLI=/run/user/1000/vscode-ipc-ab8f82d8-4702-4abf-9513-f6a353d3dd23.sock APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL=1 ELECTRON_RUN_AS_NODE=1 ELECTRON_NO_ASAR=1 NODE_CHANNEL_FD=3 NODE_CHANNEL_SERIALIZATION_MODE=json
+ubuntu         -  0.0    -      -     - -        Sl   19:30   0:00 -
+ubuntu         -  0.0    -      -     - -        Sl   19:30   0:00 -
+ubuntu         -  0.0    -      -     - -        Sl   19:30   0:00 -
+ubuntu         -  0.0    -      -     - -        Sl   19:30   0:00 -
+ubuntu         -  0.0    -      -     - -        Sl   19:30   0:00 -
+ubuntu         -  0.0    -      -     - -        Sl   19:30   0:00 -
+ubuntu         -  0.0    -      -     - -        Sl   19:30   0:00 -
+ubuntu    920900  0.0  0.2   8396  5376 pts/3    -    19:30   0:00 /usr/bin/bash LANGUAGE=en_US.utf8: USER=ubuntu SSH_CLIENT=121.249.15.160 61268 22 XDG_SESSION_TYPE=tty SHLVL=0 MOTD_SHOWN=pam HOME=/home/ubuntu DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus LOGNAME=ubuntu _=/home/ubuntu/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/node XDG_SESSION_CLASS=user XDG_SESSION_ID=9037 PATH=/home/ubuntu/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/bin/remote-cli:/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin XDG_RUNTIME_DIR=/run/user/1000 LANG=en_US.utf8 SHELL=/bin/bash PWD=/home/ubuntu SSH_CONNECTION=121.249.15.160 61268 172.17.16.2 22 HISTSIZE=3000 HISTTIMEFORMAT=%F %T  PROMPT_COMMAND=history -a; history -a;  LESSCLOSE=/usr/bin/lesspipe %s %s LESSOPEN=| /usr/bin/lesspipe %s BROWSER=/home/ubuntu/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/bin/helpers/browser.sh TERM_PROGRAM=vscode TERM_PROGRAM_VERSION=1.67.1 COLORTERM=truecolor VSCODE_IPC_HOOK_CLI=/run/user/1000/vscode-ipc-6bc17523-b041-40eb-a188-7abe6492b8bf.sock TERM=xterm-256color
+ubuntu         -  0.0    -      -     - -        Ss   19:30   0:00 -
+root      921165  0.0  0.0      0     0 ?        -    19:31   0:00 [kworker/u2:0-events_power_efficient]
+root           -  0.0    -      -     - -        I    19:31   0:00 -
+ubuntu    921473  0.0  0.0   5476   576 ?        -    19:33   0:00 sleep 180 SHELL=/bin/bash LANGUAGE=en_US.utf8: PWD=/home/ubuntu LOGNAME=ubuntu XDG_SESSION_TYPE=tty MOTD_SHOWN=pam HOME=/home/ubuntu LANG=en_US.utf8 VSCODE_AGENT_FOLDER=/home/ubuntu/.vscode-server SSH_CONNECTION=121.249.15.160 61268 172.17.16.2 22 XDG_SESSION_CLASS=user USER=ubuntu SHLVL=1 XDG_SESSION_ID=9037 XDG_RUNTIME_DIR=/run/user/1000 SSH_CLIENT=121.249.15.160 61268 22 PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus _=/usr/bin/sleep
+ubuntu         -  0.0    -      -     - -        S    19:33   0:00 -
+ubuntu    922870  0.0  0.1   8888  3304 pts/3    -    19:36   0:00 ps auxwwem SHELL=/bin/bash COLORTERM=truecolor TERM_PROGRAM_VERSION=1.67.1 HISTSIZE=3000 LANGUAGE=en_US.utf8: HISTTIMEFORMAT=%F %T  PWD=/home/ubuntu/mycode LOGNAME=ubuntu XDG_SESSION_TYPE=tty MOTD_SHOWN=pam HOME=/home/ubuntu LANG=en_US.utf8 LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36: PROMPT_COMMAND=history -a; history -a; history -a;  SSH_CONNECTION=121.249.15.160 61268 172.17.16.2 22 LESSCLOSE=/usr/bin/lesspipe %s %s XDG_SESSION_CLASS=user TERM=xterm-256color LESSOPEN=| /usr/bin/lesspipe %s USER=ubuntu SHLVL=1 XDG_SESSION_ID=9037 XDG_RUNTIME_DIR=/run/user/1000 SSH_CLIENT=121.249.15.160 61268 22 BROWSER=/home/ubuntu/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/bin/helpers/browser.sh PATH=/home/ubuntu/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/bin/remote-cli:/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus TERM_PROGRAM=vscode VSCODE_IPC_HOOK_CLI=/run/user/1000/vscode-ipc-6bc17523-b041-40eb-a188-7abe6492b8bf.sock OLDPWD=/home/ubuntu _=/usr/bin/ps
+ubuntu         -  0.0    -      -     - -        R+   19:36   0:00 -
